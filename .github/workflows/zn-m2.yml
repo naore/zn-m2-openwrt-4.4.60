@@ -195,4 +195,4 @@ jobs:
     - name: Delete Tags without Release
       uses: fabriziocacicia/delete-tags-without-release-action@v0.1.0
       env:
-        GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
